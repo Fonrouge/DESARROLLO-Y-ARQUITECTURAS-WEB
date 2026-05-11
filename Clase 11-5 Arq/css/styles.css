@@ -1,0 +1,27 @@
+
+@import url('header.css');
+@import url('sidebar.css');
+@import url('footer.css'); 
+@import url('body.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del contenedor principal */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilo del artículo */
+article {
+    width: 75%;
+    padding: 1rem;
+}
